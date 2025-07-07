@@ -43,22 +43,29 @@ No CSS or JavaScript is to be included. Focus on structure and accessibility.
     <body>
         <h1>Admission Enquiry Form</h1>
        <form>
-        <label for="fullname">Full Name:</label>
-        <input type="text" id="fullname" name="Full Name"><br><br>
-        <label for="Email Address">Email Address:</label>
-        <input type="text" id="Email Address" name="Email Address"><br><br>
-        <label for="mobile">Mobile number:</label>
-        <input type="mobile" id="Mobile Number" name="Mobile Number"><br><br>
+        <label >Full Name:</label>
+        <input type="text"><br><br>
+        <label >Email Address:</label>
+        <input type="text" ><br><br>
+        <label >Mobile number:</label>
+        <input type="mobile"><br><br>
         <label>Gender:</label><br>
-        <input type="radio"  name="gander" value="male">male
-        <input type="radio" name="gander" value="female">male
-        <input type="radio"  name="gander" value="male">Other<br><br>
-        <label>Date.Of.Birth</label>
-        <input type="date" name="Date.Of.Birth">
+        <input type="radio"  name="gander" value="male">
+        <label>Male</label>
+        <input type="radio" name="gander" value="female">
+        <label>Female</label>
+        <input type="radio"  name="gander" value="male">
+        <label>Others</label>
+        <br><br>
+        <label>Date.Of.Birth:</label><br>
+        <input type="date" name="Date.Of.Birth"><br><br>
         <label>Department:</label><br>
-        <input type="radio"  name="department" value="ECE">male
-        <input type="radio" name="department" value="MECH">male
-        <input type="radio"  name="department" value="CSE">Other<br><br>
+        <input type="radio"  name="department" value="ECE">
+        <label>ECE</label>
+        <input type="radio" name="department" value="MECH">
+        <label>MECH</label>
+        <input type="radio"  name="department" value="CSE">
+        <label>CSE</label><br><br>
             <label>Qualification:</label><br>
             <textarea name="qualification"></textarea><br><br>
             <label>Address:</label><br>
@@ -73,7 +80,8 @@ No CSS or JavaScript is to be included. Focus on structure and accessibility.
 </html>
 ```
 ## Output:
-![image](https://github.com/user-attachments/assets/68824e33-a2c5-4f48-91a3-3114af28841f)
+![image](https://github.com/user-attachments/assets/5cea4ee7-a6f4-4df4-abbe-f19681f54025)
+
 
 ## Result:
 An Admission Enquiry Form using HTML that collects student details and message for institutional follow-up is successfully created using semantic and readable HTML.
